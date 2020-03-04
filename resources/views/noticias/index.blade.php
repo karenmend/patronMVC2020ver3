@@ -41,7 +41,7 @@
                                         {{$noticia->cuerpo}}
                                         <br>
                                         <div>
-                                            <a href="{{route('noticias.show',$noticia->id)}}">Ver mas</a>
+                                            <a href="{{route('noticias.show', $noticia->id)}}">Ver mas</a>
                                         </div>
                                     </div>
                                 </div>

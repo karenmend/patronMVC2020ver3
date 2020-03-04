@@ -12,7 +12,7 @@
 */
 
 Route::get('/','NoticiaController@index')->name('front.noticias.index');
-Route::get('/noticias/{id}','NoticiaController@show')->name('front.noticias.show');
+Route::get('/{id}','NoticiaController@show')->name('front.noticias.show');
 //misitio.com/noticias/8
 
 Route::get('/admin','AdminController@dashboard')->
