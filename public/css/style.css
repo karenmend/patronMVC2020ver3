@@ -297,7 +297,8 @@ section.services #accordion .accordion_img {
 }
 
 section.services #accordion .accordion_img img {
-    width: 250px;
+    width: auto;
+    height: 175px;
 }
 
 .slide_up.ui-accordion-content.ui-corner-bottom.ui-helper-reset.ui-widget-content.ui-accordion-content-active {
